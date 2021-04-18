@@ -77,6 +77,6 @@ async def quiz(ctx):
     await ctx.send("Quiz starts in 30 seconds.") 
     time.sleep(30)
     
-    
+#git lessons
     
 bot.run(TOKEN)
