@@ -19,10 +19,9 @@ async def on_ready():
 
 @bot.command()
 async def common(ctx):
-    common = ["newbie", "shadowlands", "leveling","worgenDKs", "femaleOgres", "warlocks", "auAzeroth", "demonDeath", "undeadLight", "classRace", "auTimelines", "error"]
+    common = "newbie\n shadowlands\n leveling\n worgenDKs\n femaleOgres\n warlocks\n auAzeroth\n demonDeath\n undeadLight\n classRace\n auTimelines\n error\n"
     await ctx.send("Here's a list of commands for our most Frequently Asked Questions:")
-    for i in common:
-        await ctx.send("?" + i)
+    await ctx.send(common)
 
 @bot.command()
 async def newbie(ctx):
@@ -72,11 +71,10 @@ async def auTimelines(ctx):
 async def error(ctx):
     await ctx.send("No known answer for your query. This message includes examples of why that may be: https://www.reddit.com/r/warcraftlore/wiki/index#wiki_frequently_asked_questions_with_no_canon_answers.")
     
-@bot.command()
-async def quiz(ctx):
-    await ctx.send("Quiz starts in 30 seconds.") 
-    time.sleep(30)
+#@bot.command()
+#async def quiz(ctx):
+#    await ctx.send("Quiz starts in 30 seconds.") 
+#    time.sleep(30)
     
-#git lessons
     
 bot.run(TOKEN)
