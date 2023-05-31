@@ -2,6 +2,8 @@
 
 Norgannon is a trivia bot for Discord, designed to create an engaging and fun quiz experience for users. Named after the titan Norgannon, the Lorekeeper in World of Warcraft lore, this bot asks questions about Azeroth and its rich history, testing the knowledge of its participants.
 
+Track my development of the bot at my blog: https://battlenubsbytesizedblog.com/
+
 ## Features
 
 1. **Quiz Game**: The bot is capable of conducting a 5-question quiz game. It randomly picks a question, displays it in the chat, and waits for the users to answer. The first user to provide the correct answer is declared as the winner for that question. 
