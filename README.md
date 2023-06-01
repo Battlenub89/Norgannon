@@ -6,7 +6,12 @@ Track my development of the bot at my blog: https://battlenubsbytesizedblog.com/
 
 ## Features
 
-1. **Quiz Game**: The bot is capable of conducting a 5-question quiz game. It randomly picks a question, displays it in the chat, and waits for the users to answer. The first user to provide the correct answer is declared as the winner for that question. 
+- The bot sends a notification before starting the quiz, allowing participants to prepare.
+- Each question is randomly selected from a predefined set of questions.
+- Players have 10 seconds to provide the correct answer for each question.
+- The bot awards 1 point to the first player who answers correctly.
+- In case of no correct answers or when time runs out, the bot notifies the participants.
+- At the end of the quiz, the bot displays the final scores, showing the points earned by each player.
 
 ## Code Overview
 
