@@ -12,6 +12,7 @@ token = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
@@ -23,10 +24,14 @@ quiz = {
     "Name the first Lich King.": ["Ner'zhul", "Nerzhul", "Ner zhul"],
 }
 
+@bot.event
+async def on_ready():
+    print(f'We have logged in as {bot.user}')
+
 @bot.command()
 async def start_quiz(ctx):
     await ctx.send('The quiz is about to start in 2 minutes. Get ready!')
-    await asyncio.sleep(2*60)
+    # await asyncio.sleep(2*60)
     
     questions = list(quiz.items())
     player_scores = {}
@@ -51,12 +56,13 @@ async def start_quiz(ctx):
         except asyncio.TimeoutError:
             await ctx.send("Time is up! No one answered correctly.")
 
-        time.sleep(5)
+        # time.sleep(5)
+        print(player_scores)
 
     await ctx.send("The quiz has ended. Here are the final scores:")
 
     for player_id, score in player_scores.items():
         player = bot.get_user(player_id)
-        await ctx.send(f"{player.mention}: {score} points")
+        await ctx.send(f"{player.display_name}: {score} points")
 
 bot.run(token)
