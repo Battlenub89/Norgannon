@@ -31,7 +31,7 @@ async def on_ready():
 @bot.command()
 async def start_quiz(ctx):
     await ctx.send('The quiz is about to start in 2 minutes. Get ready!')
-    # await asyncio.sleep(2*60)
+    await asyncio.sleep(2*60)
     
     questions = list(quiz.items())
     player_scores = {}
@@ -56,7 +56,7 @@ async def start_quiz(ctx):
         except asyncio.TimeoutError:
             await ctx.send("Time is up! No one answered correctly.")
 
-        # time.sleep(5)
+        time.sleep(5)
         print(player_scores)
 
     await ctx.send("The quiz has ended. Here are the final scores:")
