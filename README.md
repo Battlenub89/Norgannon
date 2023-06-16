@@ -73,7 +73,3 @@ This is a work-in-progress, and there are numerous potential enhancements, inclu
 - Leaderboard or point system to keep track of scores over time.
 
 Feel free to contribute to the development of this bot by submitting a pull request!
-
-## License
-
-This project is licensed under the terms of the MIT license.
