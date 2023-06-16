@@ -39,7 +39,16 @@ quiz = {
     "Who was the dragon aspect enslaved by the Orc Dragonmaw Clan during the Second War?": ["Alexstrasza"], #20
     "What are the elite Horde warriors who ride wyverns into battle called? (Warcraft 3 title)": ["Wind Rider", "Wind Riders"], #21
     "What is the title given to the chief shaman of the Earthen Ring?": ["Farseer"], #22
-    "What does the laid back Pandaren phrase 'sio'tha ti'nu!' translate to?": ["Slow down, life is to be savored!", "Slow down life is to be savored"] #23
+    "What does the laid back Pandaren phrase 'sio'tha ti'nu!' translate to?": ["Slow down, life is to be savored!", "Slow down life is to be savored"], #23
+    "What is the name of the poison used to kill King Llane Wrynn, leader of the Alliance?": ["Kingsbane"], #24
+    "Who is the leader of the Ethereal race that provides various services to players in Shattrath City?": ["Haramad", "Nexus Prince Haramad", "Nexus-Prince Haramad"], #25
+    "What is the native tongue of the Tauren race?": ["Taur-ahe", "Taur ahe", "Taurahe"], #26
+    "What is the name of the legendary bow crafted by Alleria Windrunner?": ["Thas'dorah", "Thas dorah", "Thasdorah"], #27
+    "What is the name of Thrall's wolf companion?": ["Snowsong"], #28
+    "What does the Titan term 'Algalon' mean?": ["Observer"], #29
+    "Who was the first death knight to be created by the Lich King in the Third War?": ["Arthas", "Arthas Menethil"], #30
+    "Illidan once wielded the warglaives of this doomguard commander he defeated during the War of the Ancients.": ["Azzinoth"], #31
+    "Who is the final boss in the raid 'Castle Nathria' in the Shadowlands expansion?": ["Sire Denathrius", "Denathrius"], #32
 }
 
 @bot.event
