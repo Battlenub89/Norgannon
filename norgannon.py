@@ -54,7 +54,7 @@ async def start_quiz(ctx):
     questions = list(quiz.items())
     player_scores = {}
 
-    for _ in range(5):
+    for _ in range(10):
         question, answer = questions.pop(random.randint(0, len(questions) -1))
         
         await ctx.send(question)
