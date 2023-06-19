@@ -69,6 +69,7 @@ quiz = {
     "Who led the Dragonmaw Clan in the Second War?": ["Zuluhed", "Zuluhed the Whacked"], #50
     "Onyxia used to spy on the Alliance in Stormwind by disguising herself as this persona.": ["Lady Katrana Prestor", "Katrana Prestor", "Lady Prestor"], #51
     "In which raid can you play a game of chess?": ["Karazhan"], #52
+    "Who is the leader of the Earthen Ring?": ["Thrall"], #53
 }
 
 @bot.event
