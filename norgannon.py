@@ -18,7 +18,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 quiz = {
     "In the chronicles of Azeroth, who is known as the progenitor of the dragonflights, often revered as the 'Earth-Warder'?": ["Neltharion", "Deathwing"], #1
-    "The name of which ancient Titan is associated with the ordering of Azeroth and the creation of the Titan-forged?": ["Aman'Thul", "Aman Thul", "Amanthul"], #2
+    "Who is known as the 'Highfather of the Pantheon' among the Titans?": ["Aman'Thul", "Aman Thul", "Amanthul"], #2
     "The World Tree, Nordrassil, was grown atop which ancient and powerful well?": ["Well of Eternity"], #3
     "In the World of Warcraft: Shadowlands expansion, which realm serves as the afterlife for mortal druids, hunters, and nature-lovers?": ["Ardenweald"], #4
     "Named after the queen of the Naga, what is the underwater capital of the serpentine Naga race?": ["Nazjatar"], #5
@@ -49,6 +49,26 @@ quiz = {
     "Who was the first death knight to be created by the Lich King in the Third War?": ["Arthas", "Arthas Menethil"], #30
     "Illidan once wielded the warglaives of this doomguard commander he defeated during the War of the Ancients.": ["Azzinoth"], #31
     "Who is the final boss in the raid 'Castle Nathria' in the Shadowlands expansion?": ["Sire Denathrius", "Denathrius"], #32
+    "Who is the brother of Varok Saurfang?": ["Broxigar", "Broxigar the Red", "Broxigar the Red Axe", "Broxigar Saurfang"], #33
+    "Who is the leader of the Shado-Pan, the elite military organization of the Pandaren?": ["Taran Zhu"], #34
+    "Which Guardian of Tirisfal had a secret child with a human mage?": ["Aegwynn"], #35
+    "Which archdruid planted the World Tree, Teldrassil?" : ["Fandral", "Fandral Staghelm"], #36
+    "Who is the leader of the Blackwater Raiders of Booty Bay?": ["Baron Revilgaz", "Revilgaz"], #37
+    "What is the name of the Zandalari troll who allied with the Mogu to bring back the Thunderking?": ["Zul", "Zul the Prophet", "Prophet Zul"], #38
+    "Who became the Aspect of Magic after the death of Malygos?": ["Kalecgos", "Kalec"], #39
+    "What is the name of the desert that lies east of Ironforge?": ["Badlands", "The Badlands"], #40
+    "Who is the Naaru that was captured by the Blood Elves and later turned into the Void God Entropius?": ["M'uru", "Muru", "M uru"], #41
+    "Who was the leader of the High Elves during the Troll Wars?": ["Dath'Remar", "Dath Remar", "Dath'Remar Sunstrider", "Dath Remar Sunstrider", "Dathremar"], #42
+    "What is the title given to the leader of the Gnomes?": ["High Tinker"], #43
+    "What is the highest rank that can be achieved in the Knights of the Silver Hand?": ["Highlord", "High Lord"], #44
+    "The twin blades, Shalla'tor and Ellemayne, combine to create this legendary sword.": ["Shalamayne"], #45
+    "What legendary blade, forged by night elves and the five dragonflights, is known as the 'high blade' in Thalassian?": ["Quel'Serrar", "Quel Serrar", "Quelserrar"], #46
+    "Who is the final boss in the Blackwing Lair?": ["Nefarian"], #47
+    "Who was the queen of Azjol-Nerub before the Scourge invaded?": ["Nezar'Azret", "Nezarazret", "Nezar Azret"], #48
+    "Which region in the Eastern Kingdoms is known for its large lumber operation and is home to Gilneas Liberation Front?": ["Silverpine Forest", "Silverpine"], #49
+    "Who led the Dragonmaw Clan in the Second War?": ["Zuluhed", "Zuluhed the Whacked"], #50
+    "Onyxia used to spy on the Alliance in Stormwind by disguising herself as this persona.": ["Lady Katrana Prestor", "Katrana Prestor", "Lady Prestor"], #51
+    "In which raid can you play a game of chess?": ["Karazhan"], #52
 }
 
 @bot.event
