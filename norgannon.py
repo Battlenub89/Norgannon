@@ -70,6 +70,31 @@ quiz = {
     "Onyxia used to spy on the Alliance in Stormwind by disguising herself as this persona.": ["Lady Katrana Prestor", "Katrana Prestor", "Lady Prestor"], #51
     "In which raid can you play a game of chess?": ["Karazhan"], #52
     "Who is the leader of the Earthen Ring?": ["Thrall"], #53
+    "Who was the original Lich King before Arthas?": ["Ner'zhul", "Ner zhul", "Nerzhul"], #54
+    "What is the name of the second raid of the World of Warcraft: Shadowlands expansion?": ["The Sanctum of Domination", "Sanctum of Domination"], #55
+    "What is the name of Varian Wrynn's gladiatorial twin persona?": ["Lo'Gosh", "Logosh", "Lo gosh"], #56
+    "What is the name of the elite Horde military group formed by Sylvanas Windrunner and lead by Nathanos Blightcaller?": ["Dark Rangers", "The Dark Rangers"], #57
+    "Which deity do the Night Elves primarily worship?": ["Elune"], #58
+    "What was the name of the Titanic watcher who bestowed life upon the mogu?": ["Ra-den", "Ra den", "RaDen", "Highkeeper Ra", "Highkeeper Ra-den", "Highkeeper Raden"], #59
+    "Who is the leader of the Draenei?": ["Prophet Velen", "Velen"], #60
+    "Who was Thrall's master during his days as a slave in Durnholde Keep?": ["Aedelas Blackmoore", "Blackmoore"], #61
+    "Who was the origina leader of the Defias Brotherhood?": ["Edwin VanCleef", "VanCleef"], #62
+    "In the events of the Cataclysm, who becomes the Aspect of Earth in Neltharion's place?": ["Thrall", "Goel", "Go'el", "Go el"], #63
+    "Who was the original Warchief of the Horde?": ["Blackhand", "Blackhand the Destroyer"], #64
+    "What is the name of the goblin Capital city, located in Azshara?": ["Bilgewater Harbor", "Bilgewater"], #65
+    "Who is the leader of the Blood Knights of Silvermoon?": ["Lady Liadrin", "Liadrin"], #66
+    "Which dragonflight was tasked with the protection of time?" : ["Bronze", "Bronze Dragonflight", "The Bronze"], #67
+    "What is the name of the prison located in the western part of Stormwind City?": ["The Stockade", "Stockade"], #68
+    "Who is the demigod responsible for teaching druidism to the night elves?": "Cenarius", #69
+    "What is the name of Grommash Hellscream's famous axe?": ["Gorehowl"], #70
+    "In which zone can one find the Caverns of Time?": ["Tanaris"], #71
+    "What is the name of the first boss in the Black Temple?": ["High Warlord Naj'entus", "Naj'entus", "Naj entus, Najentus, High Warlord Najentus, High Warlord naj entus"], #72
+    "What was the alternative universe name for the Horde?": ["Iron Horde", "The Iron Horde"], #73
+    "What was the name of the ship that transported the human forces to the Broken Shore in the Legion expansion?": ["Skyfire", "The Skyfire"], #74
+    "Who is the half-ogre, half-orc Champion of the Horde?": ["Rexxar"], #75
+    "What is the name of the ancient Titan facility located in Storm Peaks?": ["Ulduar"], #76
+    "Varian Wrynn reclaimed a belt that once belonged to this former Stormwind hero.": ["Anduin Lothar", "Lothar"], #77
+    "This tiger loa is worshipped by the Farraki and the Zandalari trolls at his temple in Vol'dun.": ["Kimbul", "Eraka no Kimbul"], #78
 }
 
 @bot.event
